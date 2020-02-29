@@ -205,7 +205,7 @@
           password:{rules: [{ required: true, message: '请输入密码!',validator: 'click'}]},
           mobile:{rules: [{validator:this.validateMobile}]},
           captcha:{rule: [{ required: true, message: '请输入验证码!'}]},
-          inputCode:{rules: [{ required: true, message: '请输入验证码!'}]}
+          inputCode:{rules: [{ required: false, message: '请输入验证码!'}]}
         },
         verifiedCode:"",
         inputCodeContent:"",
@@ -268,8 +268,6 @@
               }).catch((err) => {
                 that.requestFailed(err);
               });
-
-
             }else {
               that.loginBtn = false;
             }
