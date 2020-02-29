@@ -7,6 +7,7 @@
     :trigger="null">
     <logo />
     <s-menu
+    class="hei"
       :collapsed="collapsed"
       :menu="menus"
       :theme="theme"
@@ -56,7 +57,7 @@
     },
     computed:{
       smenuStyle() {
-        let style = { 'padding': '0' }
+        let style = { 'padding': '0', 'overflow-y': 'scroll', 'height': '91vh' }
         if (this.fixSiderbar) {
           style['height'] = 'calc(100% - 59px)'
           style['overflow'] = 'auto'
