@@ -21,7 +21,7 @@
     props: {
       title: {
         type: String,
-        default: 'Jeecg-Boot Pro',
+        default: '后台系统',
         required: false
       },
       showTitle: {
