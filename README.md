@@ -1,11 +1,6 @@
 Ant Design Jeecg Vue
 ====
 
-当前最新版本： 2.1.4（发布日期：2020-02-24）
-
-Overview
-----
-
 基于 [Ant Design of Vue](https://vuecomponent.github.io/ant-design-vue/docs/vue/introduce-cn/) 实现的 Ant Design Pro  Vue 版
 Jeecg-boot 的前段UI框架，采用前后端分离方案，提供强大代码生成器的快速开发平台。
 前端页面代码和后端功能代码一键生成，不需要写任何代码，保持jeecg一贯的强大！！
@@ -24,17 +19,6 @@ Jeecg-boot 的前段UI框架，采用前后端分离方案，提供强大代码�
 - [vue-cropper](https://github.com/xyxiao001/vue-cropper) - 头像裁剪组件
 - [@antv/g2](https://antv.alipay.com/zh-cn/index.html) - Alipay AntV 数据可视化图表
 - [Viser-vue](https://viserjs.github.io/docs.html#/viser/guide/installation)  - antv/g2 封装实现
-
-
-
-项目下载和运行
-----
-
-- 拉取项目代码
-```bash
-git clone https://github.com/zhangdaiscott/jeecg-boot.git
-cd  jeecg-boot/ant-design-jeecg-vue
-```
 
 - 安装依赖
 ```
@@ -96,11 +80,3 @@ yarn run lint
 - [路由/菜单说明](https://github.com/zhangdaiscott/jeecg-boot/tree/master/ant-design-jeecg-vue/src/router/README.md)
 
 - [ANTD 默认配置项](https://github.com/zhangdaiscott/jeecg-boot/tree/master/ant-design-jeecg-vue/src/defaultSettings.js)
-
-- 其他待补充...
-
-
-备注
-----
-
-> @vue/cli 升级后，eslint 规则更新了。由于影响到全部 .vue 文件，需要逐个验证。既暂时关闭部分原本不验证的规则，后期维护时，在逐步修正这些 rules
