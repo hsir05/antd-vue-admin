@@ -27,6 +27,7 @@
         ref="table"
         size="middle"
         rowKey="id"
+        bordered
         :columns="columns"
         :dataSource="dataSource"
         :pagination="ipagination"

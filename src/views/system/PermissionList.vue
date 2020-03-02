@@ -25,6 +25,7 @@
       <a-table
         :columns="columns"
         size="middle"
+        bordered
         :pagination="false"
         :dataSource="dataSource"
         :loading="loading"
